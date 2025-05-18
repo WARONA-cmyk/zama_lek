@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  .background-overlay {
+    background: url('images/pexels-natalie-goodwin-2148267387-31901166.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    color: white;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .about {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  footer {
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
